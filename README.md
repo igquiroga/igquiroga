@@ -1,2 +1,0 @@
-# igquiroga
- Ignacio Quiroga
