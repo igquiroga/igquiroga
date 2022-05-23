@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="Assets/css/bootstrap.min.css">
 </head>
 <body>
-
+	<?php echo "Hola"; ?>
 	<?php require_once("Views/navbar.php"); ?>
 	<script src="Assets/js/bootstrap.bundle.min.js"></script>
 </body>
