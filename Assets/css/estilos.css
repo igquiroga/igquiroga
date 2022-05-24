@@ -5,13 +5,6 @@ body{
 	width: 10vw; 
 	height: 10vh;
 }
-
-@media only screen and (max-width: 900px) {
-  .logoSvg{
-	width: 30vw; 
-	height:10vh;
-  }
-}
 .imgGit{
 	animation: slideIn 2s;
 	background-color: #615f5f;
@@ -28,8 +21,6 @@ body{
 #myElipse{
 	animation: zoom 2s;
 }
-
-
 @keyframes slideIn{
 	0%{
 		transform: rotate3d(10, 0, 1, 15deg);
@@ -62,4 +53,15 @@ body{
 	100%{
 		transform: scale(1);
 	}
+}
+
+@media only screen and (max-width: 900px) {
+  .logoSvg{
+		width: 30vw; 
+		height:10vh;
+  }
+  video{
+  	margin-top: 5vh;
+  	width: 100%;
+  }
 }
