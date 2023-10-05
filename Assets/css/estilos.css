@@ -16,19 +16,45 @@ body {
 	transform: scale(1.05);
 }
 
+.repository {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+	transition: transform 2s;
+}
 
+.repository:hover {
+	transform: scale(1.2);
+}
 
 .imgGit {
+	aspect-ratio: 1/1;
+	width: 8vw;
 	animation: slideIn 2s;
-	background-color: #615f5f;
+	background: #131313;
 	border-color: #615f5f;
+	transition: transform 2s;
+	margin-right: 1vw;
 }
 
+
+
 .linkGit {
+	align-self: center;
+	text-decoration: none;
+	color: rgb(206, 207, 208);
 	animation: slideX 2s;
 	font-size: 1.2em;
-	font-family: "Arial Narrow";
+	font-family: Roboto, Arial;
+	transition: transform 1s;
 }
+
+.linkGit:hover {
+	color: rgb(87, 142, 206);
+}
+
+
 
 #title {
 	animation: slideY 2s;
@@ -58,9 +84,6 @@ body {
 }
 
 
-
-
-
 @keyframes logo-anim {
 	0% {
 		opacity: 0;
@@ -77,7 +100,7 @@ body {
 
 @keyframes slideIn {
 	0% {
-		transform: rotate3d(10, 0, 1, 15deg);
+		transform: rotate3d(10, 0, 0, 180deg);
 	}
 
 	100% {
@@ -87,7 +110,7 @@ body {
 
 @keyframes slideX {
 	0% {
-		transform: translateX(150%);
+		transform: translateX(10%);
 	}
 
 	100% {
@@ -135,6 +158,10 @@ body {
 		margin-top: 5vh;
 		width: 100%;
 	}
+
+	.imgGit {
+		width: 10vw;
+	}
 }
 
 @media only screen and (min-width: 500px) and (max-width: 900px) {
@@ -147,4 +174,9 @@ body {
 		margin-top: 5vh;
 		width: 100%;
 	}
+
+	.imgGit {
+		width: 10vw;
+	}
+
 }
