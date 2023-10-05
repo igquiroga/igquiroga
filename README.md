@@ -1,4 +1,4 @@
-# Hey all! 🙂
+# Hey all! 😁
 
 My name is Ignacio Quiroga, I'm a developer and a teacher from Argentina
 
