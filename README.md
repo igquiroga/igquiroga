@@ -1,6 +1,6 @@
 ### Hey all! 🙂
 
-My name is Ignacio Quiroga, I'm a developer from Argentina
+My name is Ignacio Quiroga, I'm a developer and a teacher from Argentina
 
 
 🌱 What i'm learning about?
